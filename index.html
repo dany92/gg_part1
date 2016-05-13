@@ -6,23 +6,11 @@
 		<h1>Welcome to the Guessing Game!</h1>
 	</head>
 	<body>
-		<!--<input type="number" placeholder="please enter between 1 to 100" required>-->
 		<main>
-			<input type="number" placeholder="1 to 100" pattern="[1-9][0-9]?$|^100$" required autofocus>
-			<button type="button" class="guess">Guess</button>
-			<button type="button" class="play">Play Again</button>
-			<button type="button" class="hint">Hint!</button>
+			<input type="number" min="1" max="100" placeholder="1 to 100" pattern="[1-9][0-9]?$|^100$" required autofocus>
+			<button type="button" id="guess">Guess</button>
+			<button type="button" id="hint">Hint!</button>
+			<button type="button" id="play">Play Again</button>
 		</main>
 	</body>
 </html>
-
-
-
-<!--
-2-4 Buttons
-1 Input Field
-A unique design
-HTML File
-CSS File
-Using Twitter Bootstrap is OPTIONAL 
--->

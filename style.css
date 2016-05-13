@@ -4,6 +4,7 @@ html{
 	margin: 50px;
 	text-align: center;
 }
+
 h1{
 	font-size: 4vw;
 	color: #5696D4;
@@ -17,65 +18,6 @@ main{
 	margin-top: 80px;
 }
 
-button{
-	display: block;
-	font-family: 'Lobster', sans-serif;
-	color: black;
-	font-size: 2vw;
-	/*margin: 0 auto;*/
-	margin: 5px auto;
-	border-radius: 5px;
-	border: none;
-	background-color: white;
-	height: 50px;
-	width: 15%;
-	text-shadow: -1px 1px black;
-}
-button:hover{
-	background-color: black;
-	text-shadow: -1px 1px white;
-	color: #fff;
-}
-
-.guess{
-	display: inline;
-	background: #FCCF26;
-	color: white;
-	font-size: 2vw;
-	padding: 0px;
-	margin-top: 13px;
-	vertical-align: top;
-	position: relative;
-}
-
-.guess:hover{
-	background: #FCCF26;
-	opacity: 0.8;
-	text-shadow: -1px 1px black;
-}
-
-.hint{
-	display: inline;
-	background: #EB7565;
-	color: white;
-	font-size: 2vw;
-	padding: 0px;
-	margin-top: 13px;
-	vertical-align: top;
-	position: relative;
-}
-
-.play{
-	display: block;
-	background: #A260AA;
-	color: white;
-	font-size: 2vw;
-	padding: 0px;
-	margin-top: 13px;
-	vertical-align: top;
-	position: relative;
-}
-
 input{
 	font-family: 'Lobster', sans-serif;
 	display: inline-block;
@@ -86,4 +28,43 @@ input{
 	font-size: 4vw;
 	text-align: center;
 	vertical-align: top;
+}
+
+button{
+	display: block;
+	font-family: 'Lobster', sans-serif;
+	font-size: 2vw;
+	color: white;
+	margin: 5px auto;
+	border-radius: 5px;
+	border: none;
+	height: 50px;
+	width: 15%;
+	text-shadow: -1px 1px black;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+#guess{
+	display: inline;
+	background: #FCCF26;
+	font-size: 2vw;
+	padding: 0px;
+	margin-top: 13px;
+	vertical-align: top;
+	position: relative;
+}
+
+#hint{
+	display: block;
+	background: #EB7565;
+	font-size: 2vw;
+}
+
+#play{
+	display: block;
+	background: #A260AA;
+	font-size: 2vw;
 }
